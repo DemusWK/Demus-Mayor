@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">"Demus Mayor™"</string>
+    <string name="company_name">Demus Mayor</string>
+    <string name="contact_email">"customercare@demusmayorlimited.com"</string>
+    <string name="contact_phone">"08033456781"</string>
+    <string name="welcome">Welcome</string>
+    <string name="cancel">Cancel</string>
+    <string name="wallet">"Wallet"</string>
+    <string name="login">PhoneNumber or Email</string>
+    <string name="signin">LOGIN</string>
+    <string name="register_caps">REGISTER</string>
+    <string name="password">Password</string>
+    <string name="airtime">Airtime</string>
+    <string name="datum">Data</string>
+    <string name="loading">Loading…</string>
+    <string name="close_menu">Close</string>
+    <string name="save_img_success">Image saved successfully</string>
+    <string name="save_img_fail">Image could not be saved.</string>
+    <string name="save_image">Save Image</string>
+    <string name="no_transactions">You have no transactions yet.</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="show_password">"Show password"</string>
+    <string name="email">Email</string>
+    <string name="select_type">Select Type</string>
+    <string name="message">Message</string>
+    <string name="stock_transfer">Stock Transfer</string>
+    <string name="forgotPass">Forgot password?</string>
+    <string name="make_primary">"Make Primary Account"</string>
+    <string name="read_more">"Read More…"</string>
+    <string name="general_error">"Action failed, please check your connection and try again."</string>
+    <string name="no_image">"Image loading failed, please check your connection and try again."</string>
+    <string name="socialSignIn">Sign In with your social accounts?</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="confirm">Confirm</string>
+    <string name="ref_number">"Referred Number: "</string>
+    <string name="ref_amt">"Refer Amount: "</string>
+    <string name="register_now">Register now</string>
+    <string name="phone_num">"PhoneNumber"</string>
+    <string name="fname">"First Name"</string>
+    <string name="lname">"Last Name"</string>
+    <string name="terms_conditions">"Terms and Conditions"</string>
+    <string name="i_agree">I agree to the Demus Mayor Terms of use and privacy policy.</string>
+    <string name="accept">"Accept"</string>
+    <string name="messages">"Messages"</string>
+    <string name="balance">"Balance"</string>
+    <string name="terms_agree_error">"You have to agree to the terms of service before you can proceed."</string>
+    <string name="account_balance_retry">"Your current balance could not be retrieved, please check your connection and try again."</string>
+    <string name="max_20k">"Maximum limit for a referral is \u20A620,000"</string>
+    <string name="select_netw">"Select Network"</string>
+    <string name="amount">"Amount"</string>
+    <string name="amount_optional">"Amount (optional)"</string>
+    <string name="enter_secret_pin">"Enter A Secret PIN"</string>
+    <string name="no_notif">"Empty Messages"</string>
+    <string name="receiver_number">"Receiver's PhoneNumber"</string>
+    <string name="recharge">"Recharge"</string>
+    <string name="tran_id">"Transaction Ref: "</string>
+    <string name="description">"Description"</string>
+    <string name="success_status">"Successful"</string>
+    <string name="ok">"OK"</string>
+    <string name="data_unavail">"Data product unavailable for chosen network."</string>
+    <string name="value">"Value"</string>
+    <string name="send">"Send"</string>
+    <string name="tranx_id_copied">"Transaction Ref copied."</string>
+    <string name="tranx_code_err">"Enter the transaction code."</string>
+    <string name="tranx_not_found">"Transaction not found"</string>
+    <string name="pin_expired_msg">"Demus Mayor will send you a temporary PIN to set your secret PIN. Click 'OK' to enter your password."</string>
+    <string name="bank">"Bank"</string>
+    <string name="pin">"Secret PIN"</string>
+    <string name="old_pin">"Old/Temporary PIN"</string>
+    <string name="new_pin">"New PIN"</string>
+    <string name="confirm_pin">"Confirm PIN"</string>
+    <string name="old_pwd">"Old Password"</string>
+    <string name="new_pwd">"New Password"</string>
+    <string name="confirm_pwd">"Confirm Password"</string>
+    <string name="enter_transaction_code">"Enter transaction code"</string>
+    <string name="confirm_referral">"Confirm referral"</string>
+    <string name="contact_us">"Contact us"</string>
+    <string name="update">"Update"</string>
+    <string name="new_update_avail">"New update available will you like to download now?"</string>
+    <string name="yes">"Yes"</string>
+    <string name="no">"No"</string>
+    <string name="register">"Register"</string>
+    <string name="enter_access">"Enter the access code sent to your phone number via SMS below:"</string>
+    <string name="conf_number">"Phone Verification"</string>
+    <string name="pwd_recovery">"Password Recovery"</string>
+    <string name="confirm_caps">"CONFIRM"</string>
+    <string name="continue_">"Continue"</string>
+    <string name="resend_confirm">"Resend Confirmation?"</string>
+    <string name="access_invalid">"You have to enter an access code before proceeding."</string>
+    <string name="token_invalid">"You have to enter a valid token before proceeding."</string>
+    <string name="email_ver_title">"Email Verification"</string>
+    <string name="email_verification">"A verification mail has been sent to your email address, please click on confirm button to verify your email. Thank you."</string>
+    <string name="enter_your_pin">"Enter Your PIN"</string>
+    <string name="reset_pin">"Reset PIN"</string>
+    <string name="incorrect_password">"Incorrect password entered, try again."</string>
+    <string name="incorrect_pin">"Incorrect PIN entered, try again."</string>
+    <string name="minimum_45">"You can only enter amount from \u20A645 and above."</string>
+    <string name="minimum_50">"You can only enter amount from \u20A650 and above."</string>
+    <string name="send_email">"Send Email"</string>
+    <string name="call_confirm">"Call Demus Mayor Customer Care?"</string>
+    <string name="contact_pure">"Contact Us"</string>
+    <string name="refer_error">"Oops, sorry you can't refer yourself."</string>
+    <string name="naira_sign">"\u20A6"</string>
+    <string name="general_fail">"Action failed, please check your Internet connection and try again."</string>
+    <string name="transaction">"Transaction"</string>
+    <string name="error_pin_match">"The PIN entered does not match the confirmation, please try again"</string>
+    <string name="error_password_match">"The New password does not match the confirmation, please try again"</string>
+    <string name="error_pin_short">"New PIN entered is too short, please try again"</string>
+    <string name="acct_number">"Account Number (NUBAN)"</string>
+    <string name="transactions">"Transactions"</string>
+    <string name="quick_teller">"QuickTeller"</string>
+    <string name="reload">"Reload"</string>
+    <string name="pin_reset_ft_error">"Please check your connection and try again. A PIN must be created before proceeding."</string>
+    <string name="pin_reset_suc">"Your PIN has been successfully reset, please change the temporary PIN sent to you immediately!"</string>
+    <string name="select_option">"Select Option…"</string>
+    <string name="enter_phone_or_email">Enter your Phone Number or Email below:</string>
+    <string name="enter_token">"Please enter the token sent to your email below:"</string>
+    <string name="enter_new_password">Enter a New Password below:</string>
+    <string name="sample_time">"2 minutes ago"</string>
+    <string name="wallet_id">"Wallet ID: "</string>
+    <string name="bank_accounts">"Bank Accounts"</string>
+    <string name="no_bank_accounts">"You currently have no bank accounts for wallet unloading."</string>
+    <string name="primary_account">"Primary Account?"</string>
+    <string name="account">"Account"</string>
+    <string name="primary_acct_success">"Selected bank account is now your primary account."</string>
+    <string name="account_type">"Account Type"</string>
+    <string name="acct_stmt_disclaimer">"This service attracts charges. To check for a recent transaction, exit this function and click top right corner of the app on the home page. To continue for account statement click OK"</string>
+    <string name="permissions_err">Please allow all required permissions in your settings for a better usage experience.</string>
+    <string name="sample_excerpt">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</string>
+    <!-- Errors -->
+    <string name="invalid_email">"Invalid Email."</string>
+    <string name="invalid_name">"Invalid Name."</string>
+    <string name="error_incomplete">"Please complete all fields."</string>
+    <!-- Side Menu -->
+    <string name="manage_account">Manage Account</string>
+    <string name="refer">Refer</string>
+
+    <!-- Paystack -->
+    <string name="paystack">Paystack</string>
+    <string name="card_number">Card Number</string>
+    <string name="cvv">CVV/CVC</string>
+    <string name="cvv_hint">Type 3 digits @ back of card</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="expiry_date_hint">"mm/yy"</string>
+    <string name="amount_entry">"Amount (value to load)"</string>
+    <string name="pay">Pay</string>
+    <string name="invalid_card_number">Invalid card number entered.</string>
+    <string name="invalid_cvc">Invalid CVC</string>
+    <string name="invalid_expiry">Invalid expiry date entered.</string>
+    <string name="invalid_card">Invalid card entered, please check all fields and try again.</string>
+    <string name="transaction_error">Transaction Error</string>
+    <string name="transaction_error_general">An unexpected error just occurred with this transaction, please try again.</string>
+    <string name="verification_error">Verification Error</string>
+    <string name="verification_error_msg">Transaction could not be verified, please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="verification_success">"Transaction verified successfully and subscription confirmed."</string>
+    <string name="transaction_canceled">"Transaction canceled."</string>
+
+    <!-- Account Management -->
+    <string name="share_stock">"Share Stock"</string>
+    <string name="share_stock_sub">"Share value from your stock"</string>
+    <string name="change_pin">"Change PIN"</string>
+    <string name="change_pin_sub">"Change your secret PIN"</string>
+    <string name="acct_stmt">"Account Statement"</string>
+    <string name="acct_stmt_sub">"Your current account statement"</string>
+    <string name="confirm_tranx">"Confirm Transaction"</string>
+    <string name="confirm_tranx_sub">"Check a transaction"</string>
+    <string name="change_pass">"Change Password"</string>
+    <string name="change_pass_sub">"Change your password"</string>
+    <string name="reset_pin_sub">"Reset your secret PIN"</string>
+
+    <string name="tos">"<a href="http://www.demusmayor.com/legal/#Privacy">http://www.demusmayor.com/legal/#Privacy</a>
+<a href="mailto:info@Demus Mayor.com">info@demusmayor.com</a>
+This is an agreement between Demus Mayor Limited (“Demus Mayor”), the owner and operator of www.demusmayor.com (the “Demus Mayor Site”), the Demus Mayor software, including Demus Mayor retailing app (collectively, including all content provided by Demus Mayor through Demus Mayor retailing app and the Demus Mayor Site, the ” Demus Mayor Services”, or the “Service”), and you (“you” or “You”), a user of or subscriber to the Service. BY USING THE SERVICE, YOU ACKNOWLEDGE AND AGREE TO THESE TERMS OF SERVICE, AND DEMUS MAYOR’S PRIVACY POLICY, WHICH CAN BE FOUND AT <br></br>, AND WHICH ARE INCORPORATED HEREIN BY REFERENCE. If you choose to not agree with any of these terms, you may not use the Service.
+<br></br>
+<br></br>
+These Terms of Service apply to all users of the Demus Mayor Service. Information provided by our users through the Demus Mayor Service may contain links to third party websites that are not owned or controlled by Demus Mayor. Demus Mayor has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party websites. In addition, Demus Mayor will not and cannot censor or edit the content of any third-party site. By using the Service, you expressly acknowledge and agree that Demus Mayor shall not be responsible for any damages, claims or other liability arising from or related to your use of Demus Mayor or any affiliated third-party website.
+<br></br>
+<br></br>
+A. Subject to your compliance with these Terms of Service, Demus Mayor hereby grants you permission to use the Service, provided that: (i) your use of the Service as permitted is solely for your personal use, and you are not permitted to resell or charge others for use of or access to the Service, or in any other manner inconsistent with these Terms of Service; (ii) you will not duplicate, transfer, give access to, copy or distribute any part of the Service in any medium without Demus Mayor’s prior written authorization; (iii) you will not attempt to reverse engineer, alter or modify any part of the Service; and (iv) you will otherwise comply with the terms and conditions of these Terms of Service and Privacy Policy.
+<br></br>
+B. In order to access and use the features of the Service, you acknowledge and agree that you will have to provide Demus Mayor with your mobile phone number, email address, your First name and Last name (your bank and account number only, without your security PIN will be required to access some Demus Mayor services. These are optional and apply only to those interested in such services). You expressly acknowledge and agree that in order to provide the Service, Demus Mayor may periodically access your contact list and/or address book on your mobile device to find and keep track of mobile phone numbers of other users of the Service. When providing your registration details, you must provide accurate and complete information. You hereby give your express consent to Demus Mayor to access your contact list and/or address book for mobile phone numbers and required information in order to provide and use the Service. You must notify Demus Mayor immediately of any breach of security or unauthorized use of your mobile phone. Although Demus Mayor will not be liable for your losses caused by any unauthorized use of your account, you may be liable for the losses of Demus Mayor or others due to such unauthorized use.
+<br></br>
+C. You agree not to use or launch any automated system, including without limitation, “robots,” “spiders,” “offline readers,” etc. or “load testers” such as wget, apache bench, mswebstress, httpload, blitz, Xcode Automator, Android Monkey, etc., that accesses the Service in a manner that generate to obstruct or sends more messages to the Demus Mayor servers in a given period of time than a human can reasonably produce in the same period by using a Demus Mayor application, and you are forbidden from ripping the content unless specifically allowed. Demus Mayor reserves the right to revoke rights either generally or in specific cases. While we disallow the use of sniffers such as Ethereal, tcpdump or HTTPWatch in general, we do disallow any efforts to reverse-engineer our system, our protocols, or explore outside the boundaries of the normal requests made by Demus Mayor clients. We disallow using request modification tools such as fiddler or whisker, or the like or any other such tools activities that are meant to explore or harm, penetrate or test the site. You must secure our permission before you measure, test, health check or otherwise monitor any network equipment, servers or assets hosted on our domain. You agree not to collect or harvest any personally identifiable information, including phone number, from the Service, nor to use the communication systems provided by the Service for any commercial solicitation or spam purposes. You agree not to spam, or solicit for commercial purposes, any users of the Service.
+<br></br>
+<br></br>
+A. Demus Mayor is a collaborative digital retailing service provider and acts as such by creating, hosting, maintaining and providing our Demus Mayor Services to you via the Demus Mayor Site or/and Website. Our services allow you to sell goods and services to anyone at any time. Demus Mayor is not designed for remittance business or a money transfer service and the Share stock feature may only be used to share stock with only another Demus Mayor retailing service subscriber. Transactions on the Demus Mayor platform are of various categories; (i) Retail transactions, these are transactions that are for the retail of offered products and services on the platform. These transactions are FREE and are NOT billed; (ii) Platform service transactions, these are services offered to Demus Mayor subscribers to maintain and manage their accounts. These transactions are NOT FREE and are billed; (iii) Platinum service transactions, these are premium services offered to Demus Mayor subscribers in partnership with professional providers. These transactions are FREE of Charge and are NOT billed; (iv) Demus Mayor does not have any control over, and are not responsible or liable for, the products or services that are retailed with our Demus Mayor Service. We cannot ensure that a buyer or a supplier you are dealing with will actually complete the transaction; (v) Demus Mayor may, at our discretion, impose limits on the amount of payments you can send through the Demus Mayor Services. When imposed you may view your limit, if any, by logging into your Account. Demus Mayor may increase your limits as determined by Demus Mayor; (vi) Demus Mayor reserves all the rights to amend the fees and charges as deem fit without notice but will simply update fees and charges information on the Demus Mayor website; (vii) Demus Mayor reserves all the rights to amend the commissions on all and every product offered on or via the Demus Mayor platform or affiliates as deem fit without notice but will simply update commissions, fees and charges information on the Demus Mayor website; (viii) Demus Mayor reserves all the rights to determine and control the use and period of use of all marketing funds, on or not-on the Demus Mayor platform, as deem fit autonomously; (ix) the use of and subscription to the Demus Mayor Platform, services and or products does not by any means grant the consumer, client, subscriber, customer, user or beneficiary or benefactor any form of ownership claim or rights in or over Demus Mayor in its entirety as an entity or any of the products or services; (x) you will otherwise comply with the terms and conditions of these Terms of Service and Privacy Policy.
+<br></br>
+<br></br>
+The design of the Demus Mayor Service along with Demus Mayor created text, scripts, graphics, interactive features and the like, except Status Submissions (as defined below), and the trademarks, service marks and logos contained therein (“Marks”), are owned by or licensed to Demus Mayor, subject to copyright and other intellectual property rights under Nigeria, United States and foreign laws and international conventions. The Service is provided to you AS IS for your information and personal use only. Demus Mayor reserves all rights not expressly granted in and to the Service. You agree to not engage in the use, copying, or distribution of any of the Service other than expressly permitted herein, including any use, copying, or distribution of Status Submissions of third parties obtained through the Service for any commercial purposes.
+<br></br>
+<br></br>
+A. The Demus Mayor Service allows Demus Mayor users to retail products and services, supply products and services, send value within users (to top-up stock wallet), submit status text, profile photos and other communications submitted by you, as well as the automatic submission of your “last seen” status (collectively, the “Status Submissions”). These Status Submissions may be hosted, shared, and/or published as part of the Demus Mayor Service, and may be visible to other users of the Service who have your mobile phone number in their mobile phone and which you have not expressly blocked. For clarity, direct transactions, messages, location data and photos or files that you send/transact directly to other Demus Mayor users/3rd party will only be viewable by those user(s) or 3rd party(s) or group(s) you directly transact with/send such information. As clarified in the following section, you retain your ownership rights in your Status Submissions. You understand that whether or not such Status Submissions are published, Demus Mayor does not guarantee any confidentiality with respect to any submissions.
+<br></br>
+B. You shall be solely responsible for your own Status Submissions and the consequences of posting or publishing them. Because Demus Mayor is only acting as a repository of data, user submitted statuses do not necessarily represent the views or opinions of Demus Mayor, and Demus Mayor makes no guarantees as to the validity, accuracy or legal status of any status. In connection with Status Submissions, you affirm, represent, and/or warrant that: (i) you own or have the necessary licenses, rights, consents, and permissions to use and authorize Demus Mayor to use all patent, trademark, trade secret, copyright or other proprietary rights in and to any and all Status Submissions to enable inclusion and use of the Status Submissions in the manner contemplated by the Service and these Terms of Service; and (ii) you have the written consent, release, and/or permission of each and every identifiable individual person in the Status Submission to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of the Status Submissions in the manner contemplated by the Service and these Terms of Service. To be clear: you retain all of your ownership rights in your Status Submissions, but you have to have the rights in the first place. However, by submitting the Status Submissions to Demus Mayor, you hereby grant Demus Mayor a worldwide, non-exclusive, royalty-free, sublicenseable and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the Status Submissions in connection with the Demus Mayor Service and Demus Mayor ‘s (and its successor’s) business, including without limitation for promoting and redistributing part or all of the Demus Mayor Service (and derivative works thereof) in any media formats and through any media channels. You also hereby grant each subscriber to your status on the Demus Mayor Service a non-exclusive license to access your Status Submissions through the Service. The foregoing license granted by you terminates once you remove or delete a Status Submission from the Demus Mayor Service. However, Demus Mayor reserves the rights to retain such information for record and record use purposes.
+<br></br>
+C. In connection with Status Submissions, you further agree that you will not: (i) submit material that is copyrighted, protected by trade secret or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission from their rightful owner to post the material and to grant Demus Mayor all of the license rights granted herein; (ii) publish falsehoods or misrepresentations that could damage Demus Mayor or any third party; (iii) submit material that is unlawful, obscene, defamatory, libelous, threatening, harassing, hateful, racially or ethnically offensive, or encourages conduct that would be considered a criminal offense, give rise to civil liability, violate any law, or is otherwise inappropriate; (iv) post advertisements or solicitations of business; (v) impersonate another person; (vi) send or store material containing software viruses, worms, Trojan horses or other harmful computer code, files, scripts, agents or programs; (vii) interfere with or disrupt the integrity or performance of the Service or the data contained therein; or (viii) attempt to gain unauthorized access to the Service or its related systems or networks.
+<br></br>
+D. Adult content must be identified as such. Demus Mayor does not endorse any Status Submission or any opinion, recommendation, or advice expressed therein, and Demus Mayor expressly disclaims any and all liability in connection with Status Submissions. Demus Mayor does not permit copyright infringing activities and infringement of intellectual property rights via its Service, and Demus Mayor will remove all content and Status Submissions if properly notified that such content or Status Submission infringes on another’s intellectual property rights and may close the account if seen as required. To file a copyright infringement notification, please send a written communication that includes substantially the following (see Section 512©(3) of the Digital Millennium Copyright Act): (i) A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; (ii) Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works; (iii) Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit the service provider to locate the material, including the mobile phone number of the Demus Mayor user allegedly infringing the copyrighted work; (iv) Information reasonably sufficient to permit the service provider to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address at which the complaining party may be contacted; (v) A statement that the complaining party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and (vi) A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed. Such takedown notices may be emailed to info@demusmayor.com. Demus Mayor reserves the right to remove content and Status Submissions and close user account without prior notice. Demus Mayor may also terminate a user’s access to the Service, if they are determined to be a repeat infringer, or for any or no reason, including being annoying. A repeat infringer is a User who has been notified of infringing activity more than once and/or has had a Status Submission removed from the Service more than twice. An annoying person is anyone who is (capriciously or not) determined to be annoying by authorized Demus Mayor employees, users, associates or management. Demus Mayor also reserves the right to decide whether content or a Status Submission is appropriate and complies with these Terms of Service for violations other than copyright infringement and violations of intellectual property law, such as, but not limited to excessive length or limited interest. Demus Mayor may remove such transactions, status Submissions and/or terminate a User’s access for violation of these Terms of Service at any time, without prior notice and at its sole discretion.
+<br></br>
+E. You understand that when using the Demus Mayor Service you will be exposed to Status Submissions and transactions from a variety of sources, and that Demus Mayor is not responsible for the accuracy, usefulness, safety, or intellectual property rights of or relating to such transactions/Status Submissions, and that such transactions/Status Submissions are not the responsibility of Demus Mayor. You further understand and acknowledge that you may be exposed to Transactions/Status Submissions that are inaccurate, offensive, indecent, or objectionable, and you agree to waive, and hereby do waive, any legal or equitable rights or remedies you have or may have against Demus Mayor with respect thereto, and agree to indemnify and hold Demus Mayor, its officers, directors, employees, agents, affiliates, and/or licensors, harmless to the fullest extent allowed by law regarding all matters related to your use of the Demus Mayor Service.
+<h3><b>Terms of Service</b></h3>
+F. Demus Mayor permits you to link to materials on the Service for authorized and personal purposes only. Demus Mayor reserves the right to introduce new or discontinue any aspect of the Demus Mayor Service at any time.
+<h4><b>1. Your Acceptance</b></h4>
+<h4><b>2. Demus Mayor Service</b></h4>
+YOU AGREE THAT YOUR USE OF THE DEMUS MAYOR SERVICE SHALL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, DEMUS MAYOR, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICE AND YOUR USE THEREOF. DEMUS MAYOR MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THIS SERVICE’S CONTENT AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVICE, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE THROUGH THE ACTIONS OF ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONSIN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE DEMUS MAYOR SERVICE. DEMUS MAYOR DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE DEMUS MAYOR SERVICE OR ANY HYPERLINKED WEBSITE OR FEATURED IN ANY USER STATUS SUBMISSION OR OTHER ADVERTISING, AND DEMUS MAYOR WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE. AND AGAIN, USE THIS JUST FOR PERSONAL USE AND RETAIL OF AUTHORIZED PRODUCTS AND SERVICES.
+<h4><b>3. Demus Mayor Access</b></h4>
+<h4><b>4. Demus Mayor Fees and Charges</b></h4>
+IN NO EVENT SHALL DEMUS MAYOR, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING FROM ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVERS, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE BY ANY THIRD PARTY, (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF YOUR USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE DEMUS MAYOR CLIENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT THE COMPANY IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND/OR (VI) THE DISCLOSURE OF INFORMATION PURSUANT TO THESE TERMS OF SERVICE OR PRIVACY POLICY. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
+YOU SPECIFICALLY ACKNOWLEDGE THAT DEMUS MAYOR SHALL NOT BE LIABLE FOR USER SUBMISSIONS OR 3RD PARTY SUBMISSIONS OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU. <h4><b>5. Intellectual Property Rights</b></h4>
+The Service is controlled and offered by Demus Mayor from its facilities in hosting locations. Demus Mayor makes no representations that the Demus Mayor Service is appropriate or available for use in other locations. Those who access or use the Demus Mayor Service from other jurisdictions do so at their own volition and are responsible for compliance with local law.
+<h4><b>6. User Status Submissions</b></h4>
+<h4><b>7. Warranty Disclaimer</b></h4>
+You agree to defend, indemnify and hold harmless Demus Mayor, its parent corporation, promoters, associates, officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney’s fees) arising from: (i) your use of and access to the Demus Mayor Service; (ii) your violation of any term of these Terms of Service; (iii) your violation of any third party right, including without limitation any copyright, property, or privacy right; or (iv) any claim that one of your Status Submissions caused damage to a third party. This defense and indemnification obligation will survive these Terms of Service and your use of the Demus Mayor Service. We don’t support or encourage illegal consumption of alcohol or tobacco.
+<h4><b>8. Limitation of Liability</b></h4>
+<h4><b>9. Indemnity</b></h4>
+You affirm that you are either more than 16 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms of Service, and to abide by and comply with these Terms of Service. In any case, you affirm that you are at least 16 years old as the Demus Mayor Service is not intended for children under 16. If you are under 16 years of age, you are NOT permitted to use the Demus Mayor Service. You further represent and warrant that you are not located in a country that is subject to a Nigerian or United States Government embargo, or that has been designated by the Nigerian or United States Government as a” terrorist-supporting” country, and that you are not listed on any Nigerian or United States Government list of prohibited or restricted parties. Demus Mayor is the developer of the Service, with an address at 1D Agbareh close, Allen, Lagos, Nigeria. <h4><b>10. Ability to Accept Terms of Service</b></h4>."</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_message">Message</string>
+    <string name="load_retail_wallet">Load Retail Wallet</string>
+    <string name="refer_someone">Refer Someone</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="contact_demus_mayor">Contact Demus Mayor</string>
+    <string name="sign_out">Sign out</string>
+    <string name="bonus_label">Bonus:&#160;</string>
+    <string name="limited">L&#160;&#160;I&#160;&#160;M&#160;&#160;I&#160;&#160;T&#160;&#160;E&#160;&#160;D</string>
+    <string name="zero_balance_value">0.00</string>
+    <string-array name="mobile_neworks">
+        <item>MTN</item>
+        <item>AIRTEL</item>
+        <item>ETISALAT</item>
+        <item>GLO</item>
+        <item>VISAFONE</item>
+    </string-array>
+    <string-array name="acct_stmt_values">
+        <item>"Today"</item>
+        <item>"This Week"</item>
+        <item>"This Month"</item>
+        <item>"1 Month"</item>
+        <item>"3 Months"</item>
+        <item>"6 Months"</item>
+    </string-array>
+</resources>

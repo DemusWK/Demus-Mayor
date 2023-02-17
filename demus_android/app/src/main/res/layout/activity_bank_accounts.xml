@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      
+   <include
+       android:id="@+id/tool_bar"
+       layout="@layout/tool_bar" />
+
+   <FrameLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      
+	   <ListView
+	       android:id="@+id/listStream"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:layout_marginTop="10dp"
+	       android:background="@color/transparent"
+	       android:divider="@color/transparent"
+	       android:footerDividersEnabled="false"
+	       android:headerDividersEnabled="false"
+		   android:dividerHeight="@dimen/general_margin_tiny"
+	       android:smoothScrollbar="true" />
+	   
+	   <RelativeLayout
+	       android:id="@+id/layNothingHere"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:visibility="gone"
+	       android:orientation="vertical">
+	       
+			<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:clickable="true"
+		        android:text="@string/no_bank_accounts"
+		        android:textColor="#292f33"
+		        android:layout_centerInParent="true"
+		        android:layout_marginTop="20dp"
+		        android:layout_marginBottom="10dp"
+		        android:layout_marginLeft="@dimen/general_margin"
+				android:layout_marginRight="@dimen/general_margin"
+		        android:textSize="22sp" />
+		</RelativeLayout>
+	
+	   <RelativeLayout
+	       android:id="@+id/layProgress"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:visibility="gone"
+	       android:orientation="vertical">
+	       
+			<ProgressBar
+			    android:id="@+id/progressBar"
+			    android:indeterminate="true"
+			    android:layout_width="72dp"
+			    android:layout_height="72dp"
+			    android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</FrameLayout>
+</LinearLayout>

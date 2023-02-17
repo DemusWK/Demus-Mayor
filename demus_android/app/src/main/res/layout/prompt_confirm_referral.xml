@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/confirm_referral"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/imgX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@null"
+            android:src="@drawable/close_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/general_margin"
+        android:layout_marginTop="@dimen/general_margin"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <!-- Picture A -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toLeftOf="@+id/imgRefer"
+            android:layout_toStartOf="@+id/imgRefer"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bg"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent" >
+
+                <ImageView
+                    android:id="@+id/imgProfileIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="20dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/profile_name_icon" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Arrow -->
+        <ImageView
+            android:id="@+id/imgRefer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@null"
+            android:src="@drawable/forward_icon" />
+
+        <!-- Picture B -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_margin_midi"
+                android:layout_marginStart="@dimen/general_margin_midi"
+                android:background="@drawable/circle_bg"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent" >
+
+                <ImageView
+                    android:id="@+id/imgPicB"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="20dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/profile_name_icon" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tran_id"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/lblAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tran_id"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_border2"/>
+    
+    <TextView
+        android:id="@+id/lblPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tran_id"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/deeper_gray"
+        android:textSize="18sp" />
+    
+    <Button
+        android:id="@+id/cmdSend"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#05C148"
+        android:text="@string/confirm"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+</LinearLayout>

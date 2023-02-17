@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.demus.mayor.com.demus.mayor.home.HomeActivity" >
+
+    <item
+        android:id="@+id/action_open_messages"
+        android:orderInCategory="100"
+        android:title="@string/title_message"
+        android:icon="@drawable/notif"
+        app:showAsAction="always" />
+
+</menu>

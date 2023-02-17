@@ -1,0 +1,43 @@
+<resources>
+
+    <color name="colorAccent">#2972B3</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="red_color">#d90000</color>
+
+    <color name="light_gray">#c8c8c8</color>
+
+    <color name="lighter_gray">#eeeeee</color>
+
+    <color name="deeper_gray">#969696</color>
+
+    <color name="ColorPrimary">#05C148</color>
+
+    <color name="ColorPrimaryDark">@android:color/black</color>
+
+    <color name="background_tab_pressed">#fafafa</color>
+
+    <color name="yellow_deep">#FFC001</color>
+
+    <color name="main_green_color">#05C148</color>
+
+    <!-- <color name="glowing_blue">#36AFE4</color> -->
+
+    <color name="glowing_blue">#205B8F</color>
+
+    <color name="header_color">#494B4D</color>
+
+    <color name="text_color">#333333</color>
+
+    <color name="material_grey_200">#f2f2f2</color>
+
+    <color name="grey_font">#ff9e9e9e</color>
+
+    <!-- Demus -->
+    <color name="gray_text">#666666</color>
+    <color name="dart_blue">#191B66</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey_bg">#F2F2F2</color>
+    <color name="primary_green">#05C148</color>
+</resources>

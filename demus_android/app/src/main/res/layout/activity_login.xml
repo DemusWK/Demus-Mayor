@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:isScrollContainer="true"
+	android:background="@color/light_grey_bg"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="none"
+		android:orientation="vertical"
+		tools:ignore="RtlHardcoded" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<ImageView
+				android:id="@+id/company_logo"
+				android:layout_width="match_parent"
+				android:layout_height="200dp"
+				android:layout_marginTop="50dp"
+				android:layout_gravity="center_horizontal"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/demus_logo" />
+
+			<androidx.cardview.widget.CardView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_marginLeft="@dimen/general_margin_big"
+				android:layout_marginRight="@dimen/general_margin_big"
+				android:layout_marginBottom="15dp"
+				app:cardElevation="3dp"
+				android:background="@color/white"
+				android:fadingEdgeLength="20dp"
+				app:cardCornerRadius="6dp">
+
+				<EditText
+					android:id="@+id/txtLogin"
+					android:layout_width="match_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:hint="@string/login"
+					android:singleLine="true"
+					android:textColor="@android:color/black"
+					android:textColorHint="@color/grey_font"
+					android:background="@drawable/input_field_bg"
+					android:textCursorDrawable="@drawable/edit_text_cursor"
+					android:layout_gravity="center"
+					android:textSize="17sp" />
+			</androidx.cardview.widget.CardView>
+
+			<androidx.cardview.widget.CardView
+				android:id="@+id/home_phone_card"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				app:cardElevation="3dp"
+				android:background="@color/white"
+				android:fadingEdgeLength="20dp"
+				app:cardCornerRadius="6dp"
+				android:layout_marginLeft="@dimen/general_margin_big"
+				android:layout_marginRight="@dimen/general_margin_big"
+				android:layout_marginBottom="10dp">
+
+				<EditText
+					android:id="@+id/txtPassword"
+					android:layout_width="match_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:hint="@string/password"
+					android:textColorHint="@color/grey_font"
+					android:inputType="textPassword"
+					android:singleLine="true"
+					android:textColor="@android:color/black"
+					android:textCursorDrawable="@drawable/edit_text_cursor"
+					android:background="@drawable/input_field_bg"
+					android:textSize="17sp" />
+			</androidx.cardview.widget.CardView>
+
+			<CheckBox
+				android:id="@+id/chkPass"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/general_margin_big"
+				android:layout_marginRight="@dimen/general_margin_big"
+				android:layout_marginBottom="15dp"
+				android:textColor="@color/red_color"
+				android:textSize="16sp"
+				android:text="@string/show_password" />
+
+			<TextView
+				android:id="@+id/lnkBtnForgotPass"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:clickable="true"
+				android:textStyle="normal"
+				android:text="@string/forgotPass"
+				android:textColor="@android:color/black"
+				android:layout_marginBottom="25dp"
+				android:layout_marginLeft="@dimen/general_margin_big"
+				android:layout_marginRight="@dimen/general_margin_big"
+				android:textSize="16sp" />
+
+			<Button
+				android:id="@+id/cmdLogin"
+				android:layout_width="match_parent"
+				android:layout_height="55dp"
+				android:layout_marginBottom="10dp"
+				android:layout_marginLeft="@dimen/general_margin_big"
+				android:layout_marginRight="@dimen/general_margin_big"
+				android:background="@drawable/green_btn_bg"
+				android:text="@string/signin"
+				android:textColor="#ffffff"
+				android:textSize="17sp" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:visibility="gone"
+				android:text="@string/socialSignIn"
+				android:textColor="#969696"
+				android:layout_marginTop="20dp"
+				android:layout_marginBottom="10dp"
+				android:layout_marginLeft="@dimen/general_margin"
+				android:layout_marginRight="@dimen/general_margin"
+				android:textSize="16sp" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="gone"
+				android:layout_marginLeft="@dimen/general_margin"
+				android:layout_marginRight="@dimen/general_margin"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/cmdFacebook"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_weight="1"
+					android:layout_marginEnd="7dp"
+					android:layout_marginRight="7dp"
+					android:background="#415A90"
+					android:text="@string/facebook"
+					style="?android:attr/buttonBarButtonStyle"
+					android:textColor="#ffffff"
+					android:textSize="16sp" />
+
+				<Button
+					android:id="@+id/cmdTwitter"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_weight="1"
+					android:background="#4DA9DA"
+					android:layout_marginLeft="7dp"
+					android:layout_marginStart="7dp"
+					android:text="@string/twitter"
+					style="?android:attr/buttonBarButtonStyle"
+					android:textColor="#ffffff"
+					android:textSize="16sp" />
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/lnkBtnRegister"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:clickable="true"
+				android:layout_gravity="center_horizontal"
+				android:text="@string/register_now"
+				android:textColor="@color/dart_blue"
+				android:textStyle="bold"
+				android:layout_marginTop="20dp"
+				android:layout_marginLeft="@dimen/general_margin_big"
+				android:layout_marginRight="@dimen/general_margin_big"
+				android:textSize="17sp" />
+		</LinearLayout>
+	</ScrollView>
+
+	<RelativeLayout
+		android:id="@+id/layProgress"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone"
+		android:background="#A5000000"
+		android:orientation="vertical">
+
+		<ProgressBar
+			android:id="@+id/progressBar"
+			android:indeterminate="true"
+			android:layout_width="72dp"
+			android:layout_height="72dp"
+			android:layout_centerInParent="true" />
+	</RelativeLayout>
+</LinearLayout>

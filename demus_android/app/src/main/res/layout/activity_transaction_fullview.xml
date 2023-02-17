@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      
+   <include
+       android:id="@+id/tool_bar"
+       layout="@layout/tool_bar" />
+   
+   <ScrollView 
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:scrollbars="none"
+	   android:orientation="vertical"
+	   android:background="@color/lighter_gray" >
+	   
+       <LinearLayout
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="vertical">
+	       
+		   <LinearLayout
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:background="#ffffff"
+		       android:layout_marginTop="20dp"
+		       android:orientation="vertical">
+		      
+		       <LinearLayout
+			       android:layout_width="match_parent"
+			       android:layout_height="wrap_content"
+			       android:gravity="center_horizontal"
+			       android:layout_marginTop="20dp"
+				   android:layout_marginBottom="10dp"
+			       android:orientation="horizontal">
+			       
+			       <TextView
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/tran_id"
+				        android:textColor="@color/text_color"
+				        android:textSize="16sp" />
+			       
+			       <TextView
+			            android:id="@+id/lblTransactionID"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@null"
+				        android:textColor="@color/text_color"
+				        android:textStyle="bold"
+				        android:textSize="16sp" />
+		       </LinearLayout>
+		       
+		       <TextView
+		           android:id="@+id/lblDate"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@null"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/text_color"
+			        android:textSize="15sp" />
+		       
+		       <TextView
+		            android:id="@+id/lblDescription"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/description"
+			        android:layout_margin="10dp"
+			        android:textColor="@color/text_color"
+			        android:textSize="16sp" />
+		       
+		       <TextView
+		            android:id="@+id/lblBalance"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@null"
+			        android:layout_margin="10dp"
+			        android:textColor="@color/text_color"
+			        android:textSize="16sp" />
+		       
+		       <TextView
+		            android:id="@+id/lblStatus"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/success_status"
+			        android:layout_marginTop="10dp"
+			        android:layout_marginBottom="20dp"
+			        android:textColor="@color/main_green_color"
+			        android:textSize="24sp" />
+		   </LinearLayout>
+   
+		   <Button
+		       android:id="@+id/cmdOk"
+		       android:layout_width="match_parent"
+		       android:layout_height="45dp"
+		       android:layout_marginTop="@dimen/general_margin_midi"
+		       android:layout_marginLeft="@dimen/general_margin_midi"
+		       android:layout_marginRight="@dimen/general_margin_midi"
+		       android:background="#05C148"
+		       android:text="@string/ok"
+		       android:textColor="#ffffff"
+		       android:textSize="17sp" />
+	   </LinearLayout>
+   </ScrollView>
+</LinearLayout>

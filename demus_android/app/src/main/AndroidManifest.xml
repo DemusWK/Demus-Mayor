@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.demus.mayor">
+
+    <application
+        android:name=".DemusMayorApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/demus_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".home.HomeActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleInstance"
+            android:label="@string/title_activity_home" />
+
+        <!-- PAYSTACK -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreentheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PinResetActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContactActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ManageAccountActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChangePinActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrimaryBankAccountActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RecentTransactionsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BankAccountsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainBrowserActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TransactionFullViewActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ConfirmTransactionActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TermsOfServiceActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ShareStockActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NotificationStreamActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InfoFullViewActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ImageViewerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BrowserActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ShowMessagePromptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCompatAlertDialogStyle" />
+        <activity
+            android:name=".PayStackPromptActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_live_d05eb40eabb92a1801976340f44920bb510e407b" />
+        <receiver
+            android:name=".utils.NotificationBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.onesignal.BackgroundBroadcast.RECEIVE" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+<!--    <uses-permission android:name="android.permission.READ_CONTACTS" />-->
+<!--    <uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+<!--    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> &lt;!&ndash; START: ShortcutBadger &ndash;&gt;-->
+    <!-- Samsung -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" /> <!-- HTC -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" /> <!-- Sony -->
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- Apex -->
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Solid -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Huawei -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+
+</manifest>

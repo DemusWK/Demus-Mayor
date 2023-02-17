@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/drawer_option_load_retail_wallet"
+            android:icon="@drawable/ic_wallet"
+            android:title="@string/load_retail_wallet" />
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/drawer_option_refer_someone"
+            android:icon="@drawable/refer_icon"
+            android:title="@string/refer_someone" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/drawer_option_recent_transactions"
+            android:icon="@drawable/trans_icon"
+            android:title="@string/recent_transactions" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/drawer_option_reset_pin"
+            android:icon="@drawable/lock_icon"
+            android:title="@string/reset_pin" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/drawer_option_manage_account"
+            android:icon="@drawable/ic_user"
+            android:title="@string/manage_account" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/drawer_option_contact_us"
+            android:icon="@drawable/contact_icon"
+            android:title="@string/contact_demus_mayor" />
+    </group>
+
+    <group android:id="@+id/group6">
+        <item
+            android:id="@+id/drawer_option_sign_out"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/sign_out" />
+    </group>
+</menu>

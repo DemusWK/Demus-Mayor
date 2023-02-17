@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_smartphone"
+        android:title="Recharge" />
+
+    <item
+        android:id="@+id/navigation_refer"
+        android:icon="@drawable/ic_refer"
+        android:title="Refer" />
+
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="Wallet" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_user"
+        android:title="Profile" />
+
+</menu>

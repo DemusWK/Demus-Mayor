@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="60dp"
+        android:background="@drawable/drawer_profile_bg"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.hbb20.GThumb
+            android:id="@+id/drawer_user_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            app:gtBackgroundShape="round"
+            app:gtUseBoldText="true"
+            app:gtTextSize="28sp"
+            app:gtMonoBGColor="@color/light_gray"
+            app:gtMonoTextColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/drawer_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Johngorithm"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/drawer_wallet_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wallet ID: 0908778686"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

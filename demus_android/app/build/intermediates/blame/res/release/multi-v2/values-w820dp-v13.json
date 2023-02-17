@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/olalekanbaruwa/StudioProjects/demus_android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/olalekanbaruwa/.gradle/caches/transforms-2/files-2.1/02fe057330498f8033126e2308055d12/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,64",
+                        "endOffsets": "108,173"
+                    }
+                }
+            ]
+        }
+    ]
+}

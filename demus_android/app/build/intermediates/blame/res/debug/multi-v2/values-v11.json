@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/olalekanbaruwa/StudioProjects/demus_android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/olalekanbaruwa/StudioProjects/demus_android/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6,32,14,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "182,1213,495,789",
+                        "endLines": "11,36,19,30",
+                        "endColumns": "12,9,12,12",
+                        "endOffsets": "450,1475,777,1201"
+                    },
+                    "to": {
+                        "startLines": "2,8,13,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,323,586,868",
+                        "endLines": "7,12,18,28",
+                        "endColumns": "12,9,12,12",
+                        "endOffsets": "318,581,863,1271"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_pin"
+        android:layout_margin="10dp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+    
+    <EditText
+		android:id="@+id/txtPin"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:background="@drawable/bgeditshape"
+		android:inputType="numberPassword"
+		android:gravity="center"
+		android:maxLength="4"
+		android:textScaleX="1.2"
+		android:singleLine="true"
+		android:textColor="@color/ColorPrimary"
+		android:textSize="50sp" />
+
+	<TextView
+		android:id="@+id/lblDisclaimer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/acct_stmt_disclaimer"
+		android:visibility="gone"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="5dp"
+		android:textColor="@color/text_color"
+		android:textStyle="bold"
+		android:textSize="13sp" />
+    
+    <Button
+        android:id="@+id/cmdSend"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+		android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/general_margin_small"
+        android:layout_marginRight="@dimen/general_margin_small"
+        android:layout_marginBottom="@dimen/general_margin_midi"
+        android:background="#05C148"
+        android:text="@string/send"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+</LinearLayout>

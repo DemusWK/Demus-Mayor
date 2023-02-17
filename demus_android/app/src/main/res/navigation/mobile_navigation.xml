@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.demus.mayor.home.ui.home.HomeFragment"
+        android:label="Recharge"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_refer2"
+            app:destination="@id/navigation_refer" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_wallet"
+            app:destination="@id/navigation_wallet" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_refer"
+        android:name="com.demus.mayor.home.ui.refer.ReferFragment"
+        android:label="Refer"
+        tools:layout="@layout/fragment_refer" />
+
+    <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.demus.mayor.home.ui.wallet.WalletFragment"
+        android:label="Wallet"
+        tools:layout="@layout/fragment_wallet" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.demus.mayor.home.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
+</navigation>

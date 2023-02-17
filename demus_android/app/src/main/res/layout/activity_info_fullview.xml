@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    
+    <include
+	    android:id="@+id/tool_bar"
+	    layout="@layout/tool_bar" />
+    
+    <ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/tool_bar"
+	    android:scrollbars="none"
+	    android:orientation="vertical"
+	    tools:ignore="RtlHardcoded" >
+	    
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:background="#ffffff">
+		    
+		    <ImageView
+		        android:id="@+id/imgNews"
+		        android:layout_width="match_parent"
+		        android:layout_height="200dp"
+		        android:layout_gravity="center_horizontal"
+		        android:clickable="true"
+		        android:adjustViewBounds="true"
+		        android:contentDescription="@null"
+		        android:scaleType="centerCrop"
+		        android:background="#eeeeee" />
+		    
+		    <LinearLayout
+		        android:id="@+id/layNewsBody"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="@dimen/general_margin_midi"
+			    android:orientation="vertical">
+			    
+			    <TextView
+			        android:id="@+id/lblTitle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:clickable="true"
+			        android:layout_marginBottom="5dp"
+			        android:text="@string/general_error"
+			        android:textColor="@color/colorAccent"
+			        android:textStyle="bold"
+			        android:textSize="20sp" />
+			    
+			    <TextView
+			        android:id="@+id/lblTime"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:text="@string/sample_time"
+			        android:textColor="@color/deeper_gray"
+			        android:layout_marginTop="5dp"
+			    	android:layout_marginBottom="5dp"
+			        android:textStyle="bold"
+			        android:textSize="15sp" />
+			    
+			    <TextView
+			        android:id="@+id/lblExcerpt"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="5dp"
+			        android:text="@string/sample_excerpt"
+			        android:textColor="@color/deeper_gray"
+			        android:textSize="17sp" />
+		    </LinearLayout>
+		</LinearLayout>
+    </ScrollView>
+    
+    <RelativeLayout
+        android:id="@+id/layProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="#A5000000"
+        android:orientation="vertical">
+        
+		<ProgressBar
+		    android:id="@+id/progressBar"
+		    android:indeterminate="true"
+		    android:layout_width="72dp"
+		    android:layout_height="72dp"
+		    android:layout_centerInParent="true" />
+	</RelativeLayout>
+</RelativeLayout>
